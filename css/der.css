@@ -1,0 +1,148 @@
+/*Menu responsive derecho vertical*/
+.content-menu2{
+   /* margin-top: 0vh;*/
+    position: fixed;
+    right: 0;
+    width:29vw;
+    /*min-width: 100px;*/
+    background: rgba(0,0,0,0.7);/*#161616*/
+    border-radius: 14px 0 0 14px;
+    border: 2px solid green;
+    /*transform: translateX(-300px);*/
+    transition: all 700ms;
+    z-index: 100;
+}
+
+
+.content-menu-efect2{
+    transform: translateX(570px);
+
+
+
+
+
+    /*aca es donde se modifica el movimiento de ocultar*/
+}
+.content-menu-efect3{
+    transform: translateX(30vw);
+    
+
+
+
+
+
+    /*aca es donde se modifica el movimiento de ocultar*/
+}
+
+.content-menu2 li{
+    list-style: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 14px;
+    transition: all 300ms;
+    cursor: pointer;
+    margin: 5rem;
+}
+
+.content-menu2 a li:hover{
+    transform: translateY(2px);
+    background: rgba(0,0,0,.1);
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content-menu2 li span{
+    font-size: 70px;
+}
+
+.content-menu2 li h4{
+    /*font-weight: 100;*/
+    /*----------------------------->esto es para deslizar el las letras del menu hacia la izquierda*/
+    /*transform: translateY(18px) translateX(100px);*/
+    transition: all 300ms;
+}
+
+/*esto es para agregarle color a cada icono*/
+/*
+.icon1{
+    color: #ba7404;
+}
+
+.icon2{
+    color: #188fb2;
+}
+
+.icon3{
+    color: #a319a4;
+}
+
+.icon4{
+    color: #760b0b;
+}
+
+.icon5{
+    color: #1b7e9f;
+}
+
+.icon6{
+    color: #6a26df;
+}
+
+.icon7{
+    color: #6bf929;
+}
+
+.icon8{
+    color: #f9e118;
+}
+
+.icon9{
+    color: #fff;
+}*/
+
+/*textos*/
+.content-menu2:hover .text1{
+    transform: translateX(0px);
+    transition: all 100ms;
+}
+
+.content-menu2:hover .text2{
+    transform: translateX(0px);
+    transition: all 200ms;
+}
+
+.content-menu2:hover .text3{
+    transform: translateX(0px);
+    transition: all 300ms;
+}
+
+.content-menu2:hover .text4{
+    transform: translateX(0px);
+    transition: all 400ms;
+}
+
+.content-menu2:hover .text5{
+    transform: translateX(0px);
+    transition: all 500ms;
+}
+
+.content-menu2:hover .text6{
+    transform: translateX(0px);
+    transition: all 600ms;
+}
+
+.content-menu2:hover .text7{
+    transform: translateX(0px);
+    transition: all 700ms;
+}
+
+.content-menu2:hover .text8{
+    transform: translateX(0px);
+    transition: all 800ms;
+}
+
+.content-menu2:hover .text9{
+    transform: translateX(0px);
+    transition: all 900ms;
+}

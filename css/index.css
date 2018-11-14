@@ -1,0 +1,112 @@
+/*Id de Contenido---------------------------------*/
+#wrapper{
+    
+    background-color: white;
+    width: 100%;
+    height: 145rem ;
+    
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+#iframeSection {
+    height: 100%;
+    background-color: white;
+}
+
+#carrusel {
+    background-color: black;
+    width: 100%;
+    height: 70rem;
+
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+    
+    border: 3px solid black;
+}
+
+#contentIndex{
+    margin: 0 auto;
+    height: 80rem;
+    width: 80%;
+    
+    background-color: white;
+    text-align: center;
+    padding-left: 13%;
+}
+
+#noticias {
+    width: 50rem;
+    height: 71rem;
+    margin: 1rem;
+    /*margin-left: 25%;*/
+
+    border: 3px solid green;
+    text-align: center;
+    background: rgb(0, 0, 0);
+
+    float: left;
+    position: relative;
+}
+
+
+.info{
+    border: 3px solid green;
+    border-radius: 2rem;
+    
+    width: 50rem;
+    height:35rem;
+    
+    margin: 1rem;
+    margin-bottom: 0rem;
+    
+    float: left;
+    position: relative;
+}
+
+.infoimg{
+    border-radius: 1.8rem;
+    
+    width: 100%;
+    height: 100%;
+    /*float: left;*/
+    
+    position:relative ;
+}
+
+.texto{
+    border-radius: 1.8rem;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    
+    z-index: 200;
+    text-align: right;
+    padding: 1%;
+    
+    /*float: left;*/       
+
+}
+
+.textoInfo{
+    color: white;
+    bottom: 0;
+    
+    background: rgba(0,0,0,0.5);
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    
+    padding: 2%;
+    padding-right: 3%;
+    border-radius: 0em 0em 1.7em 1.7em;
+}
+
+#carrusel marquee img{
+    width: 100%;
+    height: 69.4rem;
+    
+}

@@ -1,0 +1,192 @@
+@import url(der.css);
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: aliceblue;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+
+    width: 100%;
+    height: 10em;
+    padding: 1%;
+
+    background-color: black;
+    margin: 0;
+
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+nav{
+    border: 3px solid red;
+}
+header h1 {
+
+    color: #fff;
+    font-size: 4em;
+
+}
+
+.content-menu2 li a {
+    color: white;
+}
+
+
+/* aqui van las clases---------------------------------------------------------------*/
+nav .span2 {
+    margin-top: 300px;
+    font-size: 35px;
+    position: fixed;
+    right: 30%;
+    color: green;
+    /*background: rgba(0, 0, 0, 0.7);*/
+    z-index: 300;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.7);
+    height: 15rem;
+    border-color: green;
+    
+    border-radius: 15px 0 0 15px;
+
+    transition: all 700ms;
+    z-index: 100;
+
+
+}
+
+#logIn a {
+    color: white;
+}
+
+#logIn a:hover {
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.lineaverde {
+
+    width: 100%;
+    height: 0.5em;
+    background-color: green;
+
+    margin: 0;
+    position: relative;
+}
+
+.principalTitles {
+    padding-top: 0;
+    color: green;
+    font-family: impact, sans-serif;
+}
+
+.LogosRedes {
+    width: 1.2em;
+    height: 1em;
+    margin-right: 5px;
+    margin-left: 10%;
+
+    float: left;
+    position: relative;
+    font-size: 4rem;
+    /*text-align: center;*/
+}
+
+
+
+/*aqui van los ID---------------------------------------*/
+
+/*ID de Encabezado--------------------------------------------------------*/
+#logoheader {
+
+    width: 10%;
+    height: 100%;
+
+    background-color: ;
+    float: left;
+
+    position: relative;
+    font-size: 100%;
+
+
+}
+
+#tituloheader {
+
+    float: left;
+    width: 80%;
+    height: 100%;
+
+    text-align: center;
+    font-family: impact, sans-serif;
+
+
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+#logIn {
+    color: white;
+    font-size: 200%;
+
+    width: 10%;
+    height: 100%;
+
+    /*background: red;*/
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------------------------------------------*/
+
+
+/*------------------------------------------------*/
+
+
+/*ID Pie de Pagina--------------------------------*/
+
+#derechosR,
+#redes {
+    /*background-color: red;*/
+    width: 25%;
+
+    height: 8.5em;
+    float: left;
+    text-align: center;
+
+    padding-top: 2%;
+    color: #fff;
+
+}
+
+#direccion {
+    /*background-color: red;*/
+    width: 50%;
+
+    height: 8.5em;
+    float: left;
+    text-align: center;
+
+    padding-top: 2%;
+    color: #fff;
+}

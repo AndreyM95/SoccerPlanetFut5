@@ -1,0 +1,125 @@
+#slides {
+    position: relative;
+    top: 0;
+}
+#slides .slides-container {
+    display: none;
+    /*margin-top: 40vh;*/
+}
+#slides .scrollable {
+    *zoom: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
+}
+
+#slides .scrollable:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.slides-navigation {
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+    width: 100%;
+}
+.slides-navigation a {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+    text-decoration: none;
+    /*background: rgba(0,0,0,0.5);*/
+    color: aqua;
+    /*padding: 7px;*/
+    text-align: center;
+    line-height: 27px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.slides-navigation a:hover {
+    /*background: rgba(255,255,255,0.1);*/
+    color: rgba(0,400,500,0.7);
+}
+
+.slides-navigation a.prev {
+    left: -10px;
+}
+.slides-navigation a.next {
+    right: 0;
+}
+
+.slides-pagination {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.slides-pagination a {
+    border: 2px solid limegreen;
+    border-radius: 15px;
+    width: 15px;
+    height: 15px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=");
+    margin: 2px;
+    overflow: hidden;
+    text-indent: -100%;
+}
+.slides-pagination a.current {
+  background: limegreen;
+}
+
+.description {
+    background: rgba(0,0,0,0.5);
+    border-radius: 14px;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.description h1, span {
+    color: aqua;
+}
+
+.description span {
+    font-size: 30px;
+}
+
+.description h2, h4 {
+    color: lawngreen;
+}
+
+.description a{
+    display: block;
+    color: aqua;
+    width: 80px;
+    margin-left: 1px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px 0;
+    border: 3px solid rgba(25,255,255,0.9);
+    border-radius: 14px;
+}
+
+.description a:hover {
+    font-size: 16px;
+    background: rgba(255,255,255,0.1);
+}

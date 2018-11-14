@@ -1,0 +1,163 @@
+/*aca iran las globales para el menu*/
+@import url(izq.css);
+@import url(der.css);
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+    background-color: #c24;
+}*/
+
+/*video {
+    overflow: hidden;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}*/
+
+/* header{
+    position: fixed;
+    top: 94vh;
+    width: 100%;
+    height: 16vh;
+    background-color: #c24;#c24 rgba(0,0,0,.8)
+    z-index: 90;
+} */
+/*hacer un efecto para que cuando baje el top este cambie*/
+
+/* footer span{
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 14px;
+    font-size: 35px;
+    color: #fff;
+    transition: all 300ms;
+    cursor: pointer;
+    z-index: 100;
+    top: 93vh;
+} */
+
+header .container{
+    position: fixed;
+}
+
+header .span1{
+    position: fixed;
+    left: auto;
+}
+
+header .span2{
+    margin-top: 7vh;
+    /*margin-right: 5vw;*/
+    font-size: 35px;
+    position: fixed;
+    right: 0;
+}
+
+header img{
+    overflow: hidden;
+    position: fixed;
+    width: 45px;
+    /*background-color: rgba(0,0,0,.5);*/
+    /*border-radius: 14px;*/
+    /*left: 35%;
+    transform: translateX(75%);*/
+    margin-top: 7vh;
+    /*margin-left: 10vw;*/
+    transition: 300ms;
+}
+
+/*@font-face{
+    font-family: "Sketch Gothic School";
+    src: url("../fuentes/Sketch Gothic School.ttf");
+}
+
+b {
+    font-family: Sketch Gothic School;
+    font-size: 87em;
+}*/
+
+header img:hover{
+    width: 50px;
+    transition: 400ms;
+}
+
+header span:hover{
+    /*background: rgba(0,0,0,.4);
+    border-radius: 10px;*/
+    color: greenyellow;
+    font-size: 31px 50ms;
+}
+
+/*header span img{
+    position: absolute;
+    width: 150px;
+}*/
+
+/*header .logo{
+    
+}*/
+
+main{
+    position: relative;
+    display: block;
+}
+
+/*MENU HORIZONTAL*/
+.horizontal{
+    border: 2px solid #000;
+    position: fixed;
+    top: 15vh;
+    width: 100%;
+    background-color: dimgray;
+    height: 5vh;
+    z-index: 100;
+}
+
+.horizontal li{
+    list-style: none;
+    color: #c24;
+    float: left;
+    /*padding-left: 20px;*/
+}
+
+/*------------------------>Diseño article*/
+/*Diseño de articulo*/
+article{
+    position: relative;
+    padding: 20px;
+    top: 20vh;
+}
+
+article h1{
+    text-align:left;
+    font-weight: 600;
+    color: greenyellow;
+}
+
+article p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    /*margin-top: 20px;*/
+    color: #fff;
+}
+
+article .dark {
+    /*width: 100%;*/
+    background-color: rgba(0,0,0,.2);
+    border-radius: 14px;
+}
+
+article img{
+    border-radius: 14px;
+    width: 100%;
+}
