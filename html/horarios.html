@@ -21,20 +21,25 @@
     <!--Inicia el Encabezado-->
     <header>
         <!--Aqui va la imagen del logo-->
-        <figure id="logoheader">
-            <img src="../Multimedia/img/logo01.png" alt="LOGO" width="100%" height="100%">
-        </figure>
+        <a href="../index.html">
+            <figure id="logoheader">
+                <img src="../Multimedia/img/logo01.png" alt="LOGO" width="100%" height="100%">
+            </figure>
+        </a>
         <!--Aqui va el Nombre de la Empresa-->
-        <article id="tituloheader">
-            <h1>
-                Soccer Planet FUT5
-            </h1>
-        </article>
+        <a href="../index.html">
+            <article id="tituloheader">
+                <h1>
+                    Soccer Planet FUT5
+                </h1>
+            </article>
+        </a>
         <section id="logIn">
-            <a href="trabajando.html">
+            <a href="html/logIn.html">
                 <figure>
                     Login
-                    <img src="../Multimedia/img/login.png" alt="login" width="30%" height="20%">
+                    <!--                    <img src="Multimedia/img/login.png" alt="login" width="30%" height="20%">-->
+                    <span class="icon-login"></span>
                 </figure>
             </a>
         </section>
@@ -43,14 +48,14 @@
 
     <!--Este es el menu----------------------------------------------------->
     <nav>
-       <span class="span2">
-            <div class="show2 icon2">
+        <span class="span2">
+            <section class="show2 icon2">
                 <button type="button" class="boton">
                     <span class="icon-left-open"></span>
                 </button>
-            </div>
+            </section>
         </span>
-        <div class="content-menu2">
+        <section class="content-menu2">
             <a href="../index.html">
                 <li><span class="icon-home icon1"></span>
                     <h4 class="text1">Inicio</h4>
@@ -71,12 +76,7 @@
                     <h4 class="text8">Contacto</h4>
                 </li>
             </a>
-            <!--<li><span class="icon-video icon2"></span><h4 class="text2">Videos</h4></li>-->
-            <!-- <li><span class="icon-grocery-store icon3"></span><h4 class="text3">Productos</h4></li>
-            <li><span class="icon-picture icon4"></span><h4 class="text4">Galeria</h4></li>
-            <li><span class="icon-comment-empty icon7"></span><h4 class="text7">Mensajes</h4></li>
-            <li><span class="icon-help icon9"></span><h4 class="text9">Nosotros</h4></li>-->
-        </div>
+        </section>
     </nav>
     <hr class="lineaverde">
     <!--Termina el Encabezado--------------------------->
@@ -84,18 +84,18 @@
     <!--Aqui inicia el Contenido------------------------>
     <main id="wrapper">
         <section id="contentHorarios">
-			<div id="tabla">
-				<h1 class="principalTitles">Nuestros Horarios</h1>
-				
-				<table>
-					<tr>
-						<figure>
-							<img  class="bordesgenerales" src="..//multimedia/img/calendario.png"/>
-						</figure>
-					</tr>
-				</table>
-			</div>
-		</section>
+            <div id="tabla">
+                <h1 class="principalTitles">Nuestros Horarios</h1>
+
+                <table>
+                    <tr>
+                        <figure>
+                            <img class="bordesgenerales" src="..//multimedia/img/calendario.png" />
+                        </figure>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </main>
     <!--Aqui termina el contenido----------------------->
 
@@ -103,29 +103,30 @@
     <hr class="lineaverde">
 
     <footer>
-        <div id="derechosR">
+        <article id="derechosR">
             <address>
                 Derechos Reservados &reg;
             </address>
-        </div>
-        <div id="direccion">
+        </article>
+        <article id="direccion">
             +506 888 888 <br>
             <p>
                 Direccion:
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, asperiores.
             </p>
-        </div>
-        <div id="redes">
+        </article>
+        <section id="redes">
             <figure class="LogosRedes">
-                <img src="../Multimedia/img/logoYT.png" alt="Imagen del logo de YT" width="100%">
+                <span class="icon-youtube-play"></span>
             </figure>
             <figure class="LogosRedes">
-                <img src="../Multimedia/img/logoFB.png" alt="Imagen del logo de YT" width="100%">
+                <!--<img src="Multimedia/img/logoFB.png" alt="Imagen del logo de YT" width="100%">-->
+                <span class="icon-facebook"></span>
             </figure>
             <figure class="LogosRedes">
                 <img src="../Multimedia/img/logo01.png" alt="Imagen del logo de YT" width="110%">
             </figure>
-        </div>
+        </section>
     </footer>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
