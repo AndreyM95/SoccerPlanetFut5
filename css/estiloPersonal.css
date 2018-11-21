@@ -1,0 +1,21 @@
+/*Id de Contenido---------------------------------*/
+#wrapper{
+    width: 100%;
+    height: 100%;
+    
+    padding: 1rem;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido{
+    width: 70%;
+    position: relative;
+
+    text-align: center;
+}
+
+
