@@ -12,12 +12,16 @@
     <!--Hojas de estilo del Menu-->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="../css/der.css">
     <!--<link rel="stylesheet" href="css/menu.css">-->
     <!--<link rel="stylesheet" href="css/izq.css">-->
-    <link rel="stylesheet" href="../css/der.css">
+    <!--Hoja de estilo para las fichas-->
+    <link rel="stylesheet" type="text/css" href="../css/estilofichas.css" />
+
+
 </head>
 
-<body>
+<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
     <!--Inicia el Encabezado-->
     <header>
         <!--Aqui va la imagen del logo-->
@@ -84,10 +88,38 @@
     <!--Aqui inicia el Contenido------------------------>
     <main id="wrapper">
         <section id="contenido">
-        <h1 class="principalTitles">Nuestro Equipo de Trabajo</h1>
-            <figure class="">
-                
-            </figure>
+            <h1 class="principalTitles">Nuestro Equipo de Trabajo</h1>
+            <article id="fichas">
+                <div class="contenedor">
+
+                    <div id="pestanas">
+                        <ul id=lista>
+                            <li id="pestana1">
+                                <a href='javascript:cambiarPestanna(pestanas,pestana1);'>Funcional</a></li>
+                            <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Spinning</a></li>
+                            <li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Cardio</a></li>
+                        </ul>
+                    </div>
+
+                    <div id="contenidopestanas">
+                        <div id="cpestana1">
+                           <figure>
+                               <img class="imagenPersonal" src="../Multimedia/img/Ficha-Funcional.png" alt="Imagen de Info Funcional">
+                           </figure>
+                        </div>
+                        <div id="cpestana2">
+                            <figure>
+                               <img class="imagenPersonal" src="../Multimedia/img/Ficha-Spinning.png" alt="Imagen de Info Funcional">
+                           </figure>
+                        </div>
+                        <div id="cpestana3">
+                            <figure>
+                               <img class="imagenPersonal" src="../Multimedia/img/Ficha-Cardio.png" alt="Imagen de Info Funcional">
+                           </figure>
+                        </div>
+                    </div>
+                </div>
+            </article>
         </section>
     </main>
     <!--Aqui termina el contenido----------------------->
@@ -127,6 +159,8 @@
     <script src="../js/izq.js"></script>
     <script src="../js/der.js"></script>
     <script src="../js/boton.js"></script>
+
+    <script type="text/javascript" src="../js/cambiarPestanna.js"></script>
 </body>
 
 </html>

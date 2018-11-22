@@ -18,4 +18,8 @@
     text-align: center;
 }
 
-
+/*Clases------------------------------------------*/
+.imagenPersonal{
+    width: 100%;
+    height: 65vh;
+}
