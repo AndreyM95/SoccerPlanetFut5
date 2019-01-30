@@ -104,8 +104,7 @@ button {
 }
 
 #derechosR,
-#redes {
-    /*background-color: red;*/
+#redes, #direccion {
     width: 25%;
     height: 8.5em;
     float: left;

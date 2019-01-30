@@ -1,27 +1,33 @@
 /*id contenerdor horarios */
-#contentContacto {
-    margin: 0 auto;
-    width: 80%;
-    height: 67rem;
-    text-align: center;
-    position: relative;
+#contentContacto, #wrapperContacto{
+    margin: 0 auto; 
 }
 
-#wrapperContacto {
-    background-color: #F0F8FF;
+#contentContacto{
+    width: 80%;
+    height: 67rem;    
+
+    text-align: center;
+	position: relative; 
+}
+
+#wrapperContacto{
+    
+    background-color: aliceblue;
     width: 100%;
     height: 100rem;
+    
     padding: 1rem;
-    margin: 0 auto;
 }
 
-#contentContacto address a:link {
-    text-decoration: none;
-    color: green;
+#contentContacto address a:link{
+	text-decoration:none;
+	color:green;
 }
 
-#contentContacto address {
-    color: green;
+#contentContacto address{		
+	color:green;
 }
 
 /*clases horarios*/
+
