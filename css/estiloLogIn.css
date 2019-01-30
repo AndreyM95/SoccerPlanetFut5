@@ -1,108 +1,88 @@
 /*Id de Contenido---------------------------------*/
-#wrapper{
-    
-    background-color: white;
+#wrapper {
+    background-color: #FFF;
     width: 100%;
     height: 100%;
-    
     padding: 1rem;
     margin: 0 auto;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#contenido{
+#contenido {
     width: 70%;
     position: relative;
-
     text-align: center;
 }
 
-#infoCliente{
+#infoCliente {
     width: 30%;
-    height: 100%;
-    
     justify-content: center;
     align-content: center;
-    
-    float: left;
-    margin: 1rem;
-    padding: 2rem;
-}
-#stats{
-    float: left;
-    padding: 2rem;
-    
-    margin: 1rem;
 }
 
-#deportes{
-    width: 100%;
+#stats,
+#infoCliente,
+#deportes {
+    float: left;
+    padding: 2rem;
+    margin: 1rem;
     height: 100%;
+}
 
+#deportes {
+    width: 100%;
     clear: left;
     text-align: center;
-    margin: 1rem;
-    padding: 2rem;
 }
-/*Clases-------------------------------------------*/
 
-.fotoPerfil{
+/*Clases-------------------------------------------*/
+.fotoPerfil {
     border: 3px green solid;
     border-radius: 2rem;
-    
     width: 100%;
     font-size: 10vw;
     text-align: center;
 }
-.detallesCliente{
+
+.detallesCliente {
     text-align: justify;
     margin-top: 1rem;
-
 }
 
-.detallesTexto{
+.detallesTexto {
     font-size: 1vw;
 }
-.stats{
+
+.stats {
     width: 100%;
     height: 100%;
-    
 }
-.tituloStats{
-    color: white;
-    
-    background-color: rgba( 0, 0, 0, 1 );
-    border-width: 3px 3px 0 3px ;
+
+.tituloStats {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 1);
+    border-width: 3px 3px 0;
     border-color: green;
     border-style: solid;
-    
-        
     border-radius: 2rem 2rem 0 0;
-    
     margin: 0;
 }
 
-.imagenStats{
-    width: 100%;
+.imagenStats {
     height: 45vh;
-
-    border-width: 0 3px 3px 3px ;
-    border-color: green;
-    border-style: solid;
-    
-    border-radius: 0 0 2rem 2rem;
 }
 
-.imagenDeportes{
-    width: 100%;
+.imagenDeportes {
     font-size: 20vh;
+}
 
-    border-width: 0 3px 3px 3px ;
+.imagenDeportes,
+.imagenStats {
+    width: 100%;
+    border-width: 0 3px 3px;
     border-color: green;
     border-style: solid;
-    
     border-radius: 0 0 2rem 2rem;
 }
