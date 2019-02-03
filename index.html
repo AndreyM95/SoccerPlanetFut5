@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    <div class="fullscreen-bg">
+        <video loop muted autoplay class="fullscreen-bg__video">
+            <source src="Multimedia/Video/SPF5.MP4" type="video/mp4">
+        </video>
+    </div>
     <!--Inicia el Encabezado-->
     <header>
         <!--Aqui va la imagen del logo-->
@@ -82,21 +87,22 @@
             </a>
         </section>
     </nav>
-    <hr class="lineaverde">
     <!--Termina el Encabezado--------------------------->
 
     <!--Aqui inicia el Contenido------------------------>
     <main id="wrapper">
         <section style="margin: 0 auto">
             <!--Banner-------------------------------------------------->
-            <figure id="carrusel">
-                <!--<img src="../Multimedia/img/IMG03,2.jpg" alt="carrusel">-->
-                <marquee behavior="alternate" direction="rigth">
-                    <img src="Multimedia/img/IMG03.jpg" alt="Imagen de Pesas">
-                    <img src="Multimedia/img/IMG04.jpg" alt="Imagen de Pesas">
-                    <img src="Multimedia/img/IMG05.jpg" alt="Imagen Clases">
-                </marquee>
-            </figure>
+            <section id="contentCarrusel">
+                <figure id="carrusel">
+                    <!--<img src="../Multimedia/img/IMG03,2.jpg" alt="carrusel">-->
+                    <marquee behavior="alternate" direction="rigth">
+                        <img src="Multimedia/img/IMG03.jpg" alt="Imagen de Pesas">
+                        <img src="Multimedia/img/IMG04.jpg" alt="Imagen de Pesas">
+                        <img src="Multimedia/img/IMG05.jpg" alt="Imagen Clases">
+                    </marquee>
+                </figure>
+            </section>
             <!--Contenido -------------------------------------------->
             <section id="contentIndex">
                 <!-- nota del profesor -->
@@ -136,7 +142,6 @@
     <!--Aqui termina el contenido----------------------->
 
     <!--Aqui empieza el Pie de la pagina---------------->
-    <hr class="lineaverde">
 
     <footer>
         <article id="derechosR">
